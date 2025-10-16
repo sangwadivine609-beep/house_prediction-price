@@ -40,8 +40,8 @@ def main():
     # Input fields for all features
     bedrooms = st.text_input('bedrooms (numeric code, e.g., 3.0)')
     bathrooms = st.text_input('bathrooms (e.g., 1.5)')
-    floors = st.text_input('Screen size (inches) (e.g., 1.50)')
-    condition = st.text_input('Touchscreen (e.g., 3)')
+    floors = st.text_input('floors) (e.g., 1.50)')
+    condition = st.text_input('condition (e.g., 3)')
     yr_built = st.text_input('yr_built (numeric code, e.g., 1955)')
     city = st.text_input('city (e.g., 36)')
     country = st.text_input('country (e.g., 0)')
@@ -72,3 +72,4 @@ def main():
 if __name__ == '__main__':
 
     main()         
+
