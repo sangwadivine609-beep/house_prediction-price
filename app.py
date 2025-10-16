@@ -11,7 +11,7 @@ import streamlit as st
 
 
 # Load the trained model
-loaded_model = pickle.load(open('C:/Users/Benjamin/Desktop/house prediction price/house_sales_data.sav', 'rb'))
+loaded_model = pickle.load(open('house_sales_data.sav', 'rb'))
 
 def house_price_prediction(bedrooms, bathrooms, floors,
                             condition, yr_built, city, country,):
@@ -70,4 +70,5 @@ def main():
             
          st.error("Please enter valid numeric values for all inputs.")
 if __name__ == '__main__':
+
     main()         
