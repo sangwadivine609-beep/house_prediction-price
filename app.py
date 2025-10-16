@@ -4,11 +4,11 @@ Created on Thu Oct 16 22:04:06 2025
 
 @author: Benjamin
 """
-
+import numpy as np
 import pickle
 import pandas as pd
 import streamlit as st
-
+import os
 
 # Load the trained model
 loaded_model = pickle.load(open('house_sales_data.sav', 'rb'))
@@ -72,4 +72,5 @@ def main():
 if __name__ == '__main__':
 
     main()         
+
 
